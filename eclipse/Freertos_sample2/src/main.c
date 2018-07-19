@@ -76,7 +76,7 @@ static void MX_ETH_Init(void);
 static void MX_USART3_UART_Init(void);
 static void MX_USB_OTG_FS_PCD_Init(void);
 void StartDefaultTask(void const * argument);
-
+void BlueLedTask(void const * argument);
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
 
@@ -135,6 +135,8 @@ int main(void)
   /* definition and creation of defaultTask */
   osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
+  osThreadDef(blueledtask, BlueLedTask, osPriorityNormal, 0, 128);
+  defaultTaskHandle = osThreadCreate(osThread(blueledtask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -357,10 +359,23 @@ void StartDefaultTask(void const * argument)
   for(;;)
   {
 	HAL_GPIO_TogglePin(GPIOB, LD2_Pin);
-
-    osDelay(1000);
+    osDelay(100);
   }
   /* USER CODE END 5 */ 
+}
+
+void BlueLedTask(void const * argument)
+{
+
+  /* USER CODE BEGIN 5 */
+  /* Infinite loop */
+  for(;;)
+  {
+//	HAL_GPIO_TogglePin(GPIOB, LD3_Pin);
+	  HAL_GPIO_WritePin(GPIOB, LD3_Pin, HAL_GPIO_ReadPin(USER_Btn_GPIO_Port, USER_Btn_Pin));
+//    osDelay(100);
+  }
+  /* USER CODE END 5 */
 }
 
 /**
