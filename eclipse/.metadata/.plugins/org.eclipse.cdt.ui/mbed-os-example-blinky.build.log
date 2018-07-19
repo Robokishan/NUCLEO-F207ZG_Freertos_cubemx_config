@@ -1,0 +1,20 @@
+16:18:50 **** Clean-only build of configuration Default for project mbed-os-example-blinky ****
+mbed compile -t GCC_ARM -m NUCLEO_F207ZG clean 
+usage: make.py [-h] [-m MCU] [-t TOOLCHAIN] [--color] [--cflags CFLAGS]
+               [--asmflags ASMFLAGS] [--ldflags LDFLAGS] [-c]
+               [--profile PROFILE] [--app-config APP_CONFIG] [-p PROGRAM]
+               [-n PROGRAM] [-j JOBS] [-v] [--silent] [-D MACROS]
+               [-S [{matrix,toolchains,targets}]] [-f GENERAL_FILTER_REGEX]
+               [--stats-depth STATS_DEPTH] [--automated] [--host HOST_TEST]
+               [--extra EXTRA] [--peripherals PERIPHERALS]
+               [--dep DEPENDENCIES] [--source SOURCE_DIR]
+               [--duration DURATION] [--build BUILD_DIR] [-N ARTIFACT_NAME]
+               [-d DISK] [-s SERIAL] [-b BAUD] [-L] [--rpc] [--usb] [--dsp]
+               [--testlib] [--build-data BUILD_DATA] [-l LINKER_SCRIPT]
+make.py: error: unrecognized arguments: clean
+[mbed] ERROR: "/usr/bin/python" returned error code 2.
+[mbed] ERROR: Command "/usr/bin/python -u /run/media/kishan/Personal/DATABASE/mbed/mbed-os/tools/make.py -t GCC_ARM -m NUCLEO_F207ZG --source ../.. --build ../../BUILD/NUCLEO_F207ZG/GCC_ARM clean" in "/run/media/kishan/Personal/DATABASE/mbed/examples/mbed-os-example-blinky"
+---
+
+16:18:51 Build Finished (took 1s.246ms)
+

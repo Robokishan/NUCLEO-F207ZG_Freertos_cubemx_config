@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="StartDefault" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="startdefault"/>
+			<item value="LD2_Pin"/>
+			<item value="bluetask"/>
+			<item value="GPIOB"/>
+			<item value="main"/>
+			<item value="while(1"/>
+			<item value="bluetask&apos;"/>
+			<item value="StartDefaultTask"/>
+			<item value="HAL_GPIO_"/>
+			<item value="start"/>
+			<item value="HAL_"/>
+			<item value="hal_"/>
+			<item value="hal"/>
+			<item value="printf"/>
+			<item value="bluedefaulttask"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="348" key="DIALOG_WIDTH"/>
+		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="445" key="DIALOG_HEIGHT"/>
+		<item value="1072" key="DIALOG_X_ORIGIN"/>
+		<item value="90" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

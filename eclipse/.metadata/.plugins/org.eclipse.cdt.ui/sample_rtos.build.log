@@ -1,0 +1,14 @@
+16:24:26 **** Incremental Build of configuration Debug for project sample_rtos ****
+make all 
+Building file: /run/media/kishan/Personal/DATABASE/freertos/FreeRTOS/Source/portable/oWatcom/16BitDOS/common/portcomn.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"/run/media/kishan/Personal/DATABASE/freertos/FreeRTOS/Source/include" -std=gnu11 -MMD -MP -MF"FreeRTOS.org Source/portable/oWatcom/16BitDOS/common/portcomn.d" -MT"FreeRTOS.org\ Source/portable/oWatcom/16BitDOS/common/portcomn.d" -c -o "FreeRTOS.org Source/portable/oWatcom/16BitDOS/common/portcomn.o" "/run/media/kishan/Personal/DATABASE/freertos/FreeRTOS/Source/portable/oWatcom/16BitDOS/common/portcomn.c"
+In file included from /run/media/kishan/Personal/DATABASE/freertos/FreeRTOS/Source/portable/oWatcom/16BitDOS/common/portcomn.c:48:0:
+/run/media/kishan/Personal/DATABASE/freertos/FreeRTOS/Source/include/FreeRTOS.h:56:28: fatal error: FreeRTOSConfig.h: No such file or directory
+ #include "FreeRTOSConfig.h"
+                            ^
+compilation terminated.
+make: *** [FreeRTOS.org Source/portable/oWatcom/16BitDOS/common/subdir.mk:20: FreeRTOS.org Source/portable/oWatcom/16BitDOS/common/portcomn.o] Error 1
+
+16:24:26 Build Finished (took 134ms)
+

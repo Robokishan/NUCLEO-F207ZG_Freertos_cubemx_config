@@ -1,0 +1,6 @@
+17:28:34 **** Incremental Build of configuration Default for project RTOSDemo ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+17:28:34 Build Finished (took 70ms)
+

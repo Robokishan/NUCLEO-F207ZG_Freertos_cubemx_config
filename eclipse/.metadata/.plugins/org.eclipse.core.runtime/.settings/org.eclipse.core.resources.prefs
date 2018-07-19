@@ -1,0 +1,4 @@
+description.autobuilding=false
+eclipse.preferences.version=1
+pathvariable.FreeRTOS_ROOT=/run/media/kishan/Personal/DATABASE/freertos/FreeRTOS
+version=1

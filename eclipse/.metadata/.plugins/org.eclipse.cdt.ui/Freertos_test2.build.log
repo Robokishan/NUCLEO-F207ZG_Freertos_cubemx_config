@@ -1,0 +1,11 @@
+11:32:00 **** Incremental Build of configuration Debug for project Freertos_test2 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Freertos_test2.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16671	    164	  17248	  34083	   8523	Freertos_test2.elf
+Finished building: Freertos_test2.siz
+ 
+
+11:32:00 Build Finished (took 123ms)
+

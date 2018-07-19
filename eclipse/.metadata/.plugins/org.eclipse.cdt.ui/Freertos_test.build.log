@@ -1,0 +1,225 @@
+20:00:58 **** Incremental Build of configuration Debug for project Freertos_test ****
+make all 
+Building file: ../system/src/stm32f2xx/stm32f2xx_hal_i2c.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/stm32f2xx/stm32f2xx_hal_i2c.d" -MT"system/src/stm32f2xx/stm32f2xx_hal_i2c.o" -c -o "system/src/stm32f2xx/stm32f2xx_hal_i2c.o" "../system/src/stm32f2xx/stm32f2xx_hal_i2c.c"
+Finished building: ../system/src/stm32f2xx/stm32f2xx_hal_i2c.c
+ 
+Building file: ../system/src/stm32f2xx/stm32f2xx_hal_pwr.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/stm32f2xx/stm32f2xx_hal_pwr.d" -MT"system/src/stm32f2xx/stm32f2xx_hal_pwr.o" -c -o "system/src/stm32f2xx/stm32f2xx_hal_pwr.o" "../system/src/stm32f2xx/stm32f2xx_hal_pwr.c"
+Finished building: ../system/src/stm32f2xx/stm32f2xx_hal_pwr.c
+ 
+Building file: ../system/src/stm32f2xx/stm32f2xx_hal_pwr_ex.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/stm32f2xx/stm32f2xx_hal_pwr_ex.d" -MT"system/src/stm32f2xx/stm32f2xx_hal_pwr_ex.o" -c -o "system/src/stm32f2xx/stm32f2xx_hal_pwr_ex.o" "../system/src/stm32f2xx/stm32f2xx_hal_pwr_ex.c"
+Finished building: ../system/src/stm32f2xx/stm32f2xx_hal_pwr_ex.c
+ 
+Building file: ../system/src/stm32f2xx/stm32f2xx_hal_rcc.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/stm32f2xx/stm32f2xx_hal_rcc.d" -MT"system/src/stm32f2xx/stm32f2xx_hal_rcc.o" -c -o "system/src/stm32f2xx/stm32f2xx_hal_rcc.o" "../system/src/stm32f2xx/stm32f2xx_hal_rcc.c"
+Finished building: ../system/src/stm32f2xx/stm32f2xx_hal_rcc.c
+ 
+Building file: ../system/src/stm32f2xx/stm32f2xx_hal_rcc_ex.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/stm32f2xx/stm32f2xx_hal_rcc_ex.d" -MT"system/src/stm32f2xx/stm32f2xx_hal_rcc_ex.o" -c -o "system/src/stm32f2xx/stm32f2xx_hal_rcc_ex.o" "../system/src/stm32f2xx/stm32f2xx_hal_rcc_ex.c"
+Finished building: ../system/src/stm32f2xx/stm32f2xx_hal_rcc_ex.c
+ 
+Building file: ../system/src/stm32f2xx/stm32f2xx_hal_tim.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/stm32f2xx/stm32f2xx_hal_tim.d" -MT"system/src/stm32f2xx/stm32f2xx_hal_tim.o" -c -o "system/src/stm32f2xx/stm32f2xx_hal_tim.o" "../system/src/stm32f2xx/stm32f2xx_hal_tim.c"
+Finished building: ../system/src/stm32f2xx/stm32f2xx_hal_tim.c
+ 
+Building file: ../system/src/stm32f2xx/stm32f2xx_hal_tim_ex.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/stm32f2xx/stm32f2xx_hal_tim_ex.d" -MT"system/src/stm32f2xx/stm32f2xx_hal_tim_ex.o" -c -o "system/src/stm32f2xx/stm32f2xx_hal_tim_ex.o" "../system/src/stm32f2xx/stm32f2xx_hal_tim_ex.c"
+Finished building: ../system/src/stm32f2xx/stm32f2xx_hal_tim_ex.c
+ 
+Building file: ../system/src/stm32f2xx/stm32f2xx_hal_uart.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/stm32f2xx/stm32f2xx_hal_uart.d" -MT"system/src/stm32f2xx/stm32f2xx_hal_uart.o" -c -o "system/src/stm32f2xx/stm32f2xx_hal_uart.o" "../system/src/stm32f2xx/stm32f2xx_hal_uart.c"
+Finished building: ../system/src/stm32f2xx/stm32f2xx_hal_uart.c
+ 
+Building file: ../system/src/diag/trace_impl.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/diag/trace_impl.d" -MT"system/src/diag/trace_impl.o" -c -o "system/src/diag/trace_impl.o" "../system/src/diag/trace_impl.c"
+Finished building: ../system/src/diag/trace_impl.c
+ 
+Building file: ../system/src/cortexm/_initialize_hardware.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/cortexm/_initialize_hardware.d" -MT"system/src/cortexm/_initialize_hardware.o" -c -o "system/src/cortexm/_initialize_hardware.o" "../system/src/cortexm/_initialize_hardware.c"
+Finished building: ../system/src/cortexm/_initialize_hardware.c
+ 
+Building file: ../system/src/cortexm/_reset_hardware.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/cortexm/_reset_hardware.d" -MT"system/src/cortexm/_reset_hardware.o" -c -o "system/src/cortexm/_reset_hardware.o" "../system/src/cortexm/_reset_hardware.c"
+Finished building: ../system/src/cortexm/_reset_hardware.c
+ 
+Building file: ../system/src/cortexm/exception_handlers.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/cortexm/exception_handlers.d" -MT"system/src/cortexm/exception_handlers.o" -c -o "system/src/cortexm/exception_handlers.o" "../system/src/cortexm/exception_handlers.c"
+Finished building: ../system/src/cortexm/exception_handlers.c
+ 
+Building file: ../system/src/cmsis/startup_stm32f207xx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -x assembler-with-cpp -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -MMD -MP -MF"system/src/cmsis/startup_stm32f207xx.d" -MT"system/src/cmsis/startup_stm32f207xx.o" -c -o "system/src/cmsis/startup_stm32f207xx.o" "../system/src/cmsis/startup_stm32f207xx.S"
+Finished building: ../system/src/cmsis/startup_stm32f207xx.S
+ 
+Building file: ../system/src/cmsis/system_stm32f2xx.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"system/src/cmsis/system_stm32f2xx.d" -MT"system/src/cmsis/system_stm32f2xx.o" -c -o "system/src/cmsis/system_stm32f2xx.o" "../system/src/cmsis/system_stm32f2xx.c"
+Finished building: ../system/src/cmsis/system_stm32f2xx.c
+ 
+Building file: ../src/freertos.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"src/freertos.d" -MT"src/freertos.o" -c -o "src/freertos.o" "../src/freertos.c"
+Finished building: ../src/freertos.c
+ 
+Building file: ../src/main.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'StartDefaultTask':
+../src/main.c:495:36: warning: unused parameter 'argument' [-Wunused-parameter]
+ void StartDefaultTask(void const * argument)
+                                    ^~~~~~~~
+../src/main.c: In function '_Error_Handler':
+../src/main.c:515:27: warning: unused parameter 'file' [-Wunused-parameter]
+ void _Error_Handler(char *file, int line)
+                           ^~~~
+../src/main.c:515:37: warning: unused parameter 'line' [-Wunused-parameter]
+ void _Error_Handler(char *file, int line)
+                                     ^~~~
+../src/main.c: In function 'assert_failed':
+../src/main.c:533:29: warning: unused parameter 'file' [-Wunused-parameter]
+ void assert_failed(uint8_t* file, uint32_t line)
+                             ^~~~
+../src/main.c:533:44: warning: unused parameter 'line' [-Wunused-parameter]
+ void assert_failed(uint8_t* file, uint32_t line)
+                                            ^~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/stm32f2xx_hal_msp.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"src/stm32f2xx_hal_msp.d" -MT"src/stm32f2xx_hal_msp.o" -c -o "src/stm32f2xx_hal_msp.o" "../src/stm32f2xx_hal_msp.c"
+Finished building: ../src/stm32f2xx_hal_msp.c
+ 
+Building file: ../src/stm32f2xx_it.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"src/stm32f2xx_it.d" -MT"src/stm32f2xx_it.o" -c -o "src/stm32f2xx_it.o" "../src/stm32f2xx_it.c"
+Finished building: ../src/stm32f2xx_it.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o" -c -o "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o" "../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o" -c -o "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o" "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o" -c -o "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o" "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c"
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osTimerCreate':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:400:46: warning: unused parameter 'timer_def' [-Wunused-parameter]
+ osTimerId osTimerCreate (const osTimerDef_t *timer_def, os_timer_type type, void *argument)
+                                              ^~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:400:71: warning: unused parameter 'type' [-Wunused-parameter]
+ osTimerId osTimerCreate (const osTimerDef_t *timer_def, os_timer_type type, void *argument)
+                                                                       ^~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:400:83: warning: unused parameter 'argument' [-Wunused-parameter]
+ osTimerId osTimerCreate (const osTimerDef_t *timer_def, os_timer_type type, void *argument)
+                                                                                   ^~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osTimerStart':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:447:34: warning: unused parameter 'timer_id' [-Wunused-parameter]
+ osStatus osTimerStart (osTimerId timer_id, uint32_t millisec)
+                                  ^~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:447:53: warning: unused parameter 'millisec' [-Wunused-parameter]
+ osStatus osTimerStart (osTimerId timer_id, uint32_t millisec)
+                                                     ^~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osTimerStop':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:486:33: warning: unused parameter 'timer_id' [-Wunused-parameter]
+ osStatus osTimerStop (osTimerId timer_id)
+                                 ^~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osTimerDelete':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:515:35: warning: unused parameter 'timer_id' [-Wunused-parameter]
+ osStatus osTimerDelete (osTimerId timer_id)
+                                   ^~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osMutexCreate':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:640:46: warning: unused parameter 'mutex_def' [-Wunused-parameter]
+ osMutexId osMutexCreate (const osMutexDef_t *mutex_def)
+                                              ^~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osSemaphoreCreate':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:755:58: warning: unused parameter 'semaphore_def' [-Wunused-parameter]
+ osSemaphoreId osSemaphoreCreate (const osSemaphoreDef_t *semaphore_def, int32_t count)
+                                                          ^~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osThreadList':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:1587:33: warning: unused parameter 'buffer' [-Wunused-parameter]
+ osStatus osThreadList (uint8_t *buffer)
+                                 ^~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osRecursiveMutexCreate':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:1684:55: warning: unused parameter 'mutex_def' [-Wunused-parameter]
+ osMutexId osRecursiveMutexCreate (const osMutexDef_t *mutex_def)
+                                                       ^~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osRecursiveMutexRelease':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:1710:45: warning: unused parameter 'mutex_id' [-Wunused-parameter]
+ osStatus osRecursiveMutexRelease (osMutexId mutex_id)
+                                             ^~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osRecursiveMutexWait':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:1731:42: warning: unused parameter 'mutex_id' [-Wunused-parameter]
+ osStatus osRecursiveMutexWait (osMutexId mutex_id, uint32_t millisec)
+                                          ^~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:1731:61: warning: unused parameter 'millisec' [-Wunused-parameter]
+ osStatus osRecursiveMutexWait (osMutexId mutex_id, uint32_t millisec)
+                                                             ^~~~~~~~
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/croutine.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/croutine.o" -c -o "Middlewares/Third_Party/FreeRTOS/Source/croutine.o" "../Middlewares/Third_Party/FreeRTOS/Source/croutine.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/event_groups.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/event_groups.o" -c -o "Middlewares/Third_Party/FreeRTOS/Source/event_groups.o" "../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/list.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/list.o" -c -o "Middlewares/Third_Party/FreeRTOS/Source/list.o" "../Middlewares/Third_Party/FreeRTOS/Source/list.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/queue.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/queue.o" -c -o "Middlewares/Third_Party/FreeRTOS/Source/queue.o" "../Middlewares/Third_Party/FreeRTOS/Source/queue.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/tasks.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/tasks.o" -c -o "Middlewares/Third_Party/FreeRTOS/Source/tasks.o" "../Middlewares/Third_Party/FreeRTOS/Source/tasks.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/timers.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/timers.o" -c -o "Middlewares/Third_Party/FreeRTOS/Source/timers.o" "../Middlewares/Third_Party/FreeRTOS/Source/timers.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+ 
+Building target: Freertos_test.elf
+Invoking: Cross ARM GNU C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"Freertos_test.map" --specs=nano.specs -o "Freertos_test.elf"  ./system/src/stm32f2xx/stm32f2xx_hal.o ./system/src/stm32f2xx/stm32f2xx_hal_cortex.o ./system/src/stm32f2xx/stm32f2xx_hal_dma.o ./system/src/stm32f2xx/stm32f2xx_hal_dma_ex.o ./system/src/stm32f2xx/stm32f2xx_hal_eth.o ./system/src/stm32f2xx/stm32f2xx_hal_flash.o ./system/src/stm32f2xx/stm32f2xx_hal_flash_ex.o ./system/src/stm32f2xx/stm32f2xx_hal_gpio.o ./system/src/stm32f2xx/stm32f2xx_hal_i2c.o ./system/src/stm32f2xx/stm32f2xx_hal_pwr.o ./system/src/stm32f2xx/stm32f2xx_hal_pwr_ex.o ./system/src/stm32f2xx/stm32f2xx_hal_rcc.o ./system/src/stm32f2xx/stm32f2xx_hal_rcc_ex.o ./system/src/stm32f2xx/stm32f2xx_hal_tim.o ./system/src/stm32f2xx/stm32f2xx_hal_tim_ex.o ./system/src/stm32f2xx/stm32f2xx_hal_uart.o  ./system/src/newlib/_cxx.o ./system/src/newlib/_exit.o ./system/src/newlib/_sbrk.o ./system/src/newlib/_startup.o ./system/src/newlib/_syscalls.o ./system/src/newlib/assert.o  ./system/src/diag/Trace.o ./system/src/diag/trace_impl.o  ./system/src/cortexm/_initialize_hardware.o ./system/src/cortexm/_reset_hardware.o ./system/src/cortexm/exception_handlers.o  ./system/src/cmsis/startup_stm32f207xx.o ./system/src/cmsis/system_stm32f2xx.o  ./src/freertos.o ./src/main.o ./src/stm32f2xx_hal_msp.o ./src/stm32f2xx_it.o  ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o  ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o  ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o  ./Middlewares/Third_Party/FreeRTOS/Source/croutine.o ./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o ./Middlewares/Third_Party/FreeRTOS/Source/list.o ./Middlewares/Third_Party/FreeRTOS/Source/queue.o ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o ./Middlewares/Third_Party/FreeRTOS/Source/timers.o   
+Finished building target: Freertos_test.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "Freertos_test.elf"  "Freertos_test.hex"
+Finished building: Freertos_test.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Freertos_test.elf"
+   text	   data	    bss	    dec	    hex	filename
+  17135	    164	  16736	  34035	   84f3	Freertos_test.elf
+Finished building: Freertos_test.siz
+ 
+
+20:01:04 Build Finished (took 5s.505ms)
+

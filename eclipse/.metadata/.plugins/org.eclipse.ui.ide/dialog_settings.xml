@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/run/media/kishan/Personal/DATABASE/freertos/FreeRTOS/Demo/ARM7_LPC2368_Eclipse"/>
+		<item value="/run/media/kishan/Personal/DATABASE/freertos/FreeRTOS/Demo/ARM7_AT91SAM7X256_Eclipse"/>
+		<item value="/run/media/kishan/Personal/DATABASE/freertos/FreeRTOS/Demo/CORTEX_M4F_STM32F407ZG-SK"/>
+		<item value="/run/media/kishan/Personal/DATABASE/mbed/RPiClient/RPiClient/src/main/java/com/oizom/lwm2m/RPiClient"/>
+		<item value="/run/media/kishan/Personal/DATABASE/mbed/examples/mbed-os-example-blinky"/>
+		<item value="/run/media/kishan/Personal/DATABASE/mbed/mbed-os-example-blinky"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="644" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="562" key="DIALOG_HEIGHT"/>
+		<item value="638" key="DIALOG_X_ORIGIN"/>
+		<item value="273" key="DIALOG_Y_ORIGIN"/>
+		<item value="false" key="BUILD_NOW"/>
+	</section>
+</section>
