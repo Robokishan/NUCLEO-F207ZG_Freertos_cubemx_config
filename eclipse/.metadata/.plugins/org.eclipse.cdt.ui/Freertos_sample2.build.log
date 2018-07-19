@@ -1,34 +1,38 @@
-13:17:14 **** Incremental Build of configuration Debug for project Freertos_sample2 ****
+13:31:07 **** Incremental Build of configuration Debug for project Freertos_sample2 ****
 make all 
 Building file: ../src/main.c
 Invoking: Cross ARM GNU C Compiler
 arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DSTM32F207xx -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f2-stdperiph" -I"../system/include/stm32f2xx" -I"../system/include/cmsis/device" -I"../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"../Middlewares/Third_Party/FreeRTOS/Source/include" -I"../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -std=gnu11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
 ../src/main.c: In function 'StartDefaultTask':
-../src/main.c:352:36: warning: unused parameter 'argument' [-Wunused-parameter]
+../src/main.c:354:36: warning: unused parameter 'argument' [-Wunused-parameter]
  void StartDefaultTask(void const * argument)
                                     ^
+../src/main.c: In function 'BlueLedTask':
+../src/main.c:367:31: warning: unused parameter 'argument' [-Wunused-parameter]
+ void BlueLedTask(void const * argument)
+                               ^
 ../src/main.c: In function '_Error_Handler':
-../src/main.c:372:27: warning: unused parameter 'file' [-Wunused-parameter]
+../src/main.c:387:27: warning: unused parameter 'file' [-Wunused-parameter]
  void _Error_Handler(char *file, int line)
                            ^
-../src/main.c:372:37: warning: unused parameter 'line' [-Wunused-parameter]
+../src/main.c:387:37: warning: unused parameter 'line' [-Wunused-parameter]
  void _Error_Handler(char *file, int line)
                                      ^
 ../src/main.c: In function 'assert_failed':
-../src/main.c:390:29: warning: unused parameter 'file' [-Wunused-parameter]
+../src/main.c:405:29: warning: unused parameter 'file' [-Wunused-parameter]
  void assert_failed(uint8_t* file, uint32_t line)
                              ^
-../src/main.c:390:44: warning: unused parameter 'line' [-Wunused-parameter]
+../src/main.c:405:44: warning: unused parameter 'line' [-Wunused-parameter]
  void assert_failed(uint8_t* file, uint32_t line)
                                             ^
 ../src/main.c: At top level:
-../src/main.c:220:13: warning: 'MX_ETH_Init' defined but not used [-Wunused-function]
+../src/main.c:222:13: warning: 'MX_ETH_Init' defined but not used [-Wunused-function]
  static void MX_ETH_Init(void)
              ^
-../src/main.c:251:13: warning: 'MX_USART3_UART_Init' defined but not used [-Wunused-function]
+../src/main.c:253:13: warning: 'MX_USART3_UART_Init' defined but not used [-Wunused-function]
  static void MX_USART3_UART_Init(void)
              ^
-../src/main.c:270:13: warning: 'MX_USB_OTG_FS_PCD_Init' defined but not used [-Wunused-function]
+../src/main.c:272:13: warning: 'MX_USB_OTG_FS_PCD_Init' defined but not used [-Wunused-function]
  static void MX_USB_OTG_FS_PCD_Init(void)
              ^
 Finished building: ../src/main.c
@@ -45,9 +49,9 @@ Finished building: Freertos_sample2.hex
 Invoking: Cross ARM GNU Print Size
 arm-none-eabi-size --format=berkeley "Freertos_sample2.elf"
    text	   data	    bss	    dec	    hex	filename
-   9124	     64	  17104	  26292	   66b4	Freertos_sample2.elf
+   9252	     64	  17104	  26420	   6734	Freertos_sample2.elf
 Finished building: Freertos_sample2.siz
  
 
-13:17:15 Build Finished (took 524ms)
+13:31:07 Build Finished (took 525ms)
 
